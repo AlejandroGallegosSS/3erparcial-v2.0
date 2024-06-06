@@ -9,8 +9,9 @@ int hora;
 cout << "Introduzca la hora: ";
 
 cin >> hora;
-
-if (hora < 12) {
+if (hora>24){
+  cout<< " error digito no valido";
+else if (hora < 12) {
 
 cout << "Buenos dias";
 
